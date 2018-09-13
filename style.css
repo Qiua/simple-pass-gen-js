@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6rem;
+    font-family: "Oswald", sans-serif;
+    background-color: #e4e1e1;
+    text-align: center;
+    line-height: 1;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 50%;
+    padding: 0 5%;
+}
+
+.page-title {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 8vw;
+    line-height: 1;
+    text-align: center;
+    color: #191919;
+    border-bottom: 14px solid #191919;
+}
+label {
+    width: 90%;
+    display: block;
+    padding: 20px 5%;
+    text-align: left;
+}
+input { width: 40% }
+button { width: 50% }
+input, button {
+    padding: 10px 10px;
+    border: 3px solid #191919;
+    border-radius: 5px;
+    background-color: inherit;
+    font-size: inherit;
+    margin-bottom: 10px;
+    text-align: inherit;
+    font-family: "Oswald", sans-serif;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #191919;
+    color: #e4e1e1;
+    border-color: grey;
+}
+
+.result-wrapper {
+    height: 50px;
+    width: 100%;
+}
+
+.result {
+    text-align: inherit;
+    border: 3px solid grey;
+    border-radius: 5px;
+    line-height: 50px;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 10px;
+    cursor: pointer;
+}
+span {
+    line-height: 50px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
