@@ -1,4 +1,3 @@
-
 const TARGET = document.querySelector(".result-wrapper");
 
 const BUTTON = document.querySelector("#generate");
@@ -68,7 +67,6 @@ function printResult(target) {
     "use strict";
     let result;
     let tip;
-    let tipText;
 
     //create new result element if not exists
     if (document.querySelector(".result") === null) {
@@ -84,7 +82,7 @@ function printResult(target) {
         target.appendChild(tip);
     }
     result = document.querySelector(".result");
-    
+
     document.querySelector(".tip").innerText = "Click to copy on Clipboard";
 
     window.getSelection().removeAllRanges(); //Remove Selection
